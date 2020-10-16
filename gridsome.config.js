@@ -8,5 +8,14 @@ module.exports = {
   siteName: '一条有梦想的咸鱼',
   plugins: [],
   siteUrl: 'http://www.zqchen.cn/',
-  pathPrefix: '/blog'
+  pathPrefix: '/blog',
+  plugins: [
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'doc/**/*.md',
+        typeName:'DocPage'
+      }
+    }
+  ]
 }
