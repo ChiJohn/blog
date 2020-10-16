@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{odGf:function(t,e,n){"use strict";n.r(e);var s={metaInfo:{title:"About us"}},u=n("KHd+"),o=Object(u.a)(s,(function(){var t=this.$createElement,e=this._self._c||t;return e("Layout",[e("h1",[this._v("关于")]),e("p",[this._v("博主有点懒，什么都没有留下")])])}),[],!1,null,null,null);e.default=o.exports}}]);
